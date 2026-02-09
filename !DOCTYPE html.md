@@ -27,38 +27,12 @@
       cursor: pointer;
       margin: 10px;
     }
-    #yes {
-      background-color: #4CAF50;
-      color: white;
-    }
-    #no {
-      background-color: #f44336;
-      color: white;
-      position: absolute;
-    }
-  </style>
-</head>
-<body>
-
+   
 <div class="card">
   <h2>Hey Cutie 🥰</h2>
   <p>Will you be my Valentine? 💕</p>
-  <button id="yes" onclick="yesClicked()">Yes 💖</button>
-  <button id="no" onmouseover="moveNo()">No 😏</button>
-</div>
-
-<script>
-  function moveNo() {
-    const noBtn = document.getElementById("no");
-    const x = Math.random() * (window.innerWidth - 100);
-    const y = Math.random() * (window.innerHeight - 50);
-    noBtn.style.left = x + "px";
-    noBtn.style.top = y + "px";
   }
-
-  function yesClicked() {
-    document.body.innerHTML = "<h1 style='color:#ff4d6d;'>YAYYY 💖 I knew it 😍</h1>";
-  }
+  
 </script>
 
 </body>
@@ -88,11 +62,11 @@
     noBtn.innerText = noTexts[count % noTexts.length];
     count++;
   }
-
-  function yesClicked() {
+function yesClicked() {
     document.body.innerHTML = `
       <div style="text-align:center; margin-top:40vh;">
-        <h1 style="color:#ff4d6d;">YAYYY 💖💖💖</h1>
+        <h1 
+  style="color:#ff4d6d;">YAYYY 💖💖💖</h1>
         <p>You just made me the happiest person 😍</p>
       </div>
     `;
