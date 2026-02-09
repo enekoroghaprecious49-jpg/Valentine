@@ -1,33 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Be My Valentine 💖</title>
-  <style>
-    body {
-      background-color: #ffe6eb;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: Arial, sans-serif;
-    }
-    .card {
-      background: white;
-      padding: 30px;
-      border-radius: 15px;
-      text-align: center;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    }
-    button {
-      padding: 10px 20px;
-      border: none;
-      border-radius: 10px;
-      font-size: 16px;
-      cursor: pointer;
-      margin: 10px;
-    }
-   
+<head>  
 <div class="card">
   <h2>Hey Cutie 🥰</h2>
   <p>Will you be my Valentine? 💕</p>
